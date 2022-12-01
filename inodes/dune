@@ -1,0 +1,5 @@
+(executables
+ (names main)
+ (libraries fmt irmin irmin-pack)
+ (preprocess
+   (pps ppx_irmin)))
