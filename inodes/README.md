@@ -98,3 +98,5 @@ inode hash = a615d25db77815109135e4202b6ba0dcce546502f516cd2e0625923e01232970864
 ```
 
 ![structure](output.png)
+
+[discussion of inode tree balancing behavior](https://github.com/mirage/irmin/issues/1806)
