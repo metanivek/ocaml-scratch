@@ -1,0 +1,5 @@
+(executables
+ (names main)
+ (libraries irmin-tezos)
+ (preprocess
+   (pps ppx_irmin)))
