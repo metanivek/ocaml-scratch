@@ -1,0 +1,11 @@
+(executables
+ (names main)
+ (libraries
+   unix
+   eio_main
+   eio
+   index.unix
+   optint
+   fmt
+   mtime.clock.os
+   mtime))
