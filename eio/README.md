@@ -11,3 +11,12 @@ Eio.File.pread (with polling)
 Lwt_unix.pread
 0.6481ms        0.0130ms
 ```
+
+``` sh
+# dune exec ./iouring.exe -- ./test.dat
+Uring (wait)
+0.0607ms        0.0012ms
+Uring (poll)
+0.1938ms        0.0039ms
+```
+
