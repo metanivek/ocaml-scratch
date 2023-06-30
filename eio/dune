@@ -1,9 +1,12 @@
 (executables
- (names main)
+ (names main iouring)
  (libraries
    unix
    eio_main
+   eio_linux
    eio
+   uring
+   lwt.unix
    index.unix
    optint
    fmt
